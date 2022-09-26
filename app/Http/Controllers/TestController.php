@@ -6,9 +6,10 @@ use Illuminate\Routing\Controller as BaseController;
 
 class TestController extends BaseController
 {
-    function action() {
+    public function action()
+    {
         return view('test', [
-            'id' => 123
+            'id' => 123,
         ]);
     }
 }
