@@ -2,14 +2,8 @@ import './bootstrap';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-export default function HelloReact() {
-    return (
-        <p>Hello React!</p>
-    );
-}
+import App from './components/App';
 
 if (document.getElementById('react-app')) {
-    ReactDOM.render(<HelloReact />, document.getElementById('react-app'));
+    ReactDOM.render(<App />, document.getElementById('react-app'));
 }
-
