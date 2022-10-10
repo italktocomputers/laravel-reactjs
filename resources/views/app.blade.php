@@ -9,6 +9,6 @@
     <script src="./bundle.js" defer></script>
 </head>
 <body>
-<div id="react-app"></div>
+    <div id="react-app"></div>
 </body>
 </html>
